@@ -34,7 +34,7 @@ export const Register = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     axios
-      .post(`https://uber-u41r.onrender.com/users/register`, user)
+      .post(`https://Gotify-u41r.onrender.com/users/register`, user)
       .then((res) => {
         console.log(res);
         setUser(initState);

@@ -14,7 +14,7 @@ import {
 } from "@chakra-ui/react";
 
 import DriverPageFooter from "./DriverPageFooter";
-const baseURL = "https://uber-u41r.onrender.com";
+const baseURL = "https://Gotify-u41r.onrender.com";
 
 const DriverDashboard = () => {
   const [driverData, setDriverData] = useState(null); // State to store driver data
@@ -130,7 +130,7 @@ const DriverDashboard = () => {
         <Box
           flex="65%"
           backgroundImage={
-            "https://www.researchgate.net/publication/323759986/figure/fig3/AS:631576123682823@1527590890164/Map-in-Uber-application-tracking-user-in-a-Yellow-Cab.png"
+            "https://www.researchgate.net/publication/323759986/figure/fig3/AS:631576123682823@1527590890164/Map-in-Gotify-application-tracking-user-in-a-Yellow-Cab.png"
           }
         >
           <Heading bg="green.200" size="md" textAlign={"center"}>

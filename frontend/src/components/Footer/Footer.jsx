@@ -66,7 +66,7 @@ const Footer = () => {
       //   </div>
       //   <hr />
       //   <div className="footer-bottom">
-      //     <p>&copy; 2023 Uber Technologies Inc. All Rights Reserved.</p>
+      //     <p>&copy; 2023 Gotify Technologies Inc. All Rights Reserved.</p>
       //     <div className="language-selector">
       //       <span>English (United States)</span>
       //       <i className="fas fa-globe"></i>
@@ -98,8 +98,8 @@ const Footer = () => {
                 <Link to="#">Deliver</Link><br/>
                 <Link to="#">Press</Link><br/>
                 <Link to="#">Eat</Link><br/>
-                <Link to="#">Uber for Business</Link><br/>
-                <Link to="#">Uber Freight</Link>
+                <Link to="#">Gotify for Business</Link><br/>
+                <Link to="#">Gotify Freight</Link>
             </li>   
         </ul>
 

@@ -12,7 +12,7 @@ import {
   Image,
 } from "@chakra-ui/react";
 import { Link, Navigate, useNavigate } from "react-router-dom";
-const baseURL = "https://uber-u41r.onrender.com";
+const baseURL = "https://Gotify-u41r.onrender.com";
 // import DriverDashboard from "./DriverDashboard";
 
 const DriverLogin = () => {

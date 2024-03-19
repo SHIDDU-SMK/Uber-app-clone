@@ -1,6 +1,3 @@
-
-
-
 import React, { useEffect, useState } from 'react'
 import {Link, useNavigate} from "react-router-dom"
 import {Nav, Navbar, Container, NavDropdown, Image} from 'react-bootstrap';  
@@ -20,26 +17,19 @@ const Navigation = () => {
 let username;
   useEffect(()=>{
 
-    
       // window.location.reload(false);
     username = JSON.parse(localStorage.getItem("username"))
     console.log(username)
     setname(username)
-    
+
 
   },[name])
-  
-  
-   const handleLogout = () =>{
+  const handleLogout = () =>{
       localStorage.removeItem("username")
-   }
-  
-  
+  }
 
   return (
-
-    <>  
-      <Navbar collapseOnSelect expand="lg"  bg="dark" variant="dark" color="white">  
+      <Navbar collapseOnSelect expand="lg"  bg="dark" variant="dark" color="white">
         <Container>  
           <Navbar.Brand href="/" className='logoimage'><img src='./images/SAVARI1.png' alt="logo" className='logo'></img></Navbar.Brand>  
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />  
@@ -48,9 +38,8 @@ let username;
             <Nav className="me-auto">  
             <Nav.Link href="/" color="white">Home</Nav.Link>
               <Nav.Link href="/ride" color="white">Ride</Nav.Link>  
-              <Nav.Link href="/eat" color="light">UberEat</Nav.Link>
               <Nav.Link href="/driver">Driver</Nav.Link> 
-              <Nav.Link href="/buisness">Buisness</Nav.Link> 
+              <Nav.Link href="/buisness">Business</Nav.Link> 
           
 
               {/* <NavDropdown title="Dropdown" id="collasible-nav-dropdown">  
@@ -84,9 +73,7 @@ let username;
 
             </Nav>
         </Container>  
-      </Navbar>  
-    </>  
-   
+      </Navbar>
   )
 }
 

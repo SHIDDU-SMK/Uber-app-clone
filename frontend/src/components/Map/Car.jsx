@@ -4,19 +4,19 @@ import { useNavigate } from "react-router-dom";
 const data = [
   {
     id: "123",
-    title: "Uber Mini",
+    title: "Gotify Mini",
     multiplier: 1,
     image: "https://links.papareact.com/3pn",
   },
   {
     id: "456",
-    title: "Uber Max",
+    title: "Gotify Max",
     multiplier: 1.2,
     image: "https://links.papareact.com/5w8",
   },
   {
     id: "789",
-    title: "Uber Luxury",
+    title: "Gotify Luxury",
     multiplier: 1.7,
     image: "https://links.papareact.com/7pf",
   },

@@ -17,7 +17,7 @@ import {
   Text,
   Spacer
 } from "@chakra-ui/react";
-const baseURL = "https://uber-u41r.onrender.com";
+const baseURL = "https://Gotify-u41r.onrender.com";
 
 const DriverSignup = () => {
   const [name, setName] = useState("");
@@ -81,7 +81,7 @@ const DriverSignup = () => {
   return (
     <>
       <Center fontSize={45} mt="2" color="#212529" fontWeight={"bold"}>
-        Apply to drive with Savari{" "}
+        Apply to drive with Gotfy{" "}
         <Image
           w="100px"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQg0iyKahA50q4EIeuUd6KxtfaynHmUpS-Qg&usqp=CAU"
